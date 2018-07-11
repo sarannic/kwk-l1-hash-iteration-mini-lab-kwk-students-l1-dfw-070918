@@ -20,6 +20,6 @@ end
 
 def iterate_through_keys
   add_a_key_value_pair.keys.upcase = upcased_cities
-  
-  puts upcased_cities
+  cities_array = []
+  cities_array << upcased_cities
 end
