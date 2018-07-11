@@ -19,7 +19,7 @@ def iterate_through_hash
 end
 
 def iterate_through_keys
-  add_a_key_value_pair.keys.upcase = upcased_cities
+  upcased_cities = add_a_key_value_pair.keys.upcase
   cities_array = []
   cities_array << upcased_cities
 end
